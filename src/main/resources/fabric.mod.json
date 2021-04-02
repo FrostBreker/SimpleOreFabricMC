@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "sofmc",
+  "version": "${version}",
+
+  "name": "Simple Ores FabricMC",
+  "description": "Simple Ores FabricMC",
+  "authors": [
+    "FrostBreker"
+  ],
+  "accessWidener" : "accesswidener",
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/simple-ore-fabricmc"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/sofmc/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.breaker.sofmc.SofmcMod"
+    ],
+    "client": [
+      "fr.breaker.sofmc.SofmcClient"
+    ]
+  },
+  "mixins": [
+    "sofmc.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "sofmc:forge_furnace",
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "result": "sofmc:obsidian_ingot",
+  "experience": 0.2
+}
