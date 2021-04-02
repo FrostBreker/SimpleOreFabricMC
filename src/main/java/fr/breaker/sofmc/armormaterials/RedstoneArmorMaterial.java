@@ -6,12 +6,12 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 
-public class EmeraldArmorMaterial implements ArmorMaterial
+public class RedstoneArmorMaterial implements ArmorMaterial
 {
-    public static final EmeraldArmorMaterial INSTANCE = new EmeraldArmorMaterial();
+    public static final RedstoneArmorMaterial INSTANCE = new RedstoneArmorMaterial();
 
-    private static final int[] BASE_DURABILITY = new int[] {16, 18, 19, 14};
-    private static final int[] PROTECTION_VALUES = new int[] {5, 8, 10, 5};
+    private static final int[] BASE_DURABILITY = new int[] {12, 14, 15, 10};
+    private static final int[] PROTECTION_VALUES = new int[] {1, 4, 6, 1};
 
     @Override
     public int getDurability(EquipmentSlot slot) {
@@ -35,21 +35,21 @@ public class EmeraldArmorMaterial implements ArmorMaterial
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.EMERALD);
+        return Ingredient.ofItems(Items.REDSTONE);
     }
 
     @Override
     public String getName() {
-        return "emerald_armor";
+        return "redstone_armor";
     }
 
     @Override
     public float getToughness() {
-        return 4F;
+        return 2.5F;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0.3F;
+        return 0.1F;
     }
 }

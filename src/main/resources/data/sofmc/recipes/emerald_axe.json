@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WW ",
+    "WR ",
+    " R "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:emerald"
+    },
+    "R": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sofmc:emerald_axe",
+    "count": 1
+  }
+}
