@@ -11,7 +11,7 @@ public class ObsidianArmorMaterial implements ArmorMaterial
     public static final ObsidianArmorMaterial INSTANCE = new ObsidianArmorMaterial();
 
     private static final int[] BASE_DURABILITY = new int[] {14, 16, 17, 12};
-    private static final int[] PROTECTION_VALUES = new int[] {5, 8, 10, 5};
+    private static final int[] PROTECTION_VALUES = new int[] {3, 6, 8, 3};
 
     @Override
     public int getDurability(EquipmentSlot slot) {
