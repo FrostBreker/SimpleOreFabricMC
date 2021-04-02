@@ -9,6 +9,7 @@ import fr.breaker.sofmc.screenhandler.ForgeFurnaceScreenHandler;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.screenhandler.v1.ScreenHandlerRegistry;
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.block.entity.BlockEntityType;
@@ -34,7 +35,7 @@ public class SofmcMod implements ModInitializer {
 
     static {
         //Block
-        FORGE_FURNACE_BLOCK = Registry.register(Registry.BLOCK, new Identifier(MODID, "forge_furnace"), new ForgeFurnace(FabricBlockSettings.of(Material.METAL)));
+        FORGE_FURNACE_BLOCK = Registry.register(Registry.BLOCK, new Identifier(MODID, "forge_furnace"), new ForgeFurnace(FabricBlockSettings.of(Material.METAL).breakByTool(FabricToolTags.PICKAXES).strength(3f, 3f)));
         //BlockItem
         Registry.register(Registry.ITEM, new Identifier(MODID, "forge_furnace"), new BlockItem(FORGE_FURNACE_BLOCK, new Item.Settings().group(ItemGroup.DECORATIONS)));
         //BlockEntity
