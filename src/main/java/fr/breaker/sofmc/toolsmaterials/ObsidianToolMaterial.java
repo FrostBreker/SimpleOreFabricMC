@@ -15,7 +15,7 @@ public class ObsidianToolMaterial implements ToolMaterial
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 5f;
+        return 6f;
     }
 
     @Override

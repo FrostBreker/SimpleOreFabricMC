@@ -1,0 +1,8 @@
+{
+  "type": "sofmc:forge_furnace",
+  "ingredient": {
+    "item": "minecraft:basalt"
+  },
+  "result": "sofmc:basalt_ingot",
+  "experience": 0.2
+}

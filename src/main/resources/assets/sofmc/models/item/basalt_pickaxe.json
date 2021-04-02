@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "sofmc:item/basalt_pickaxe"
+  }
+}
