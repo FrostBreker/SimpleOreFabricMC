@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:basalt"
+    }
+  },
+  "result": {
+    "item": "sofmc:basalt_chestplate",
+    "count": 1
+  }
+}

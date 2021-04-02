@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "W W",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "sofmc:obsidian_leggings"
+    }
+  },
+  "result": {
+    "item": "sofmc:obsidian_leggings",
+    "count": 1
+  }
+}
