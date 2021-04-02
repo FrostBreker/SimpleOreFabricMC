@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WRW",
+    "RAR",
+    "WRW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:cobblestone"
+    },
+    "A": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "sofmc:forge_furnace",
+    "count": 1
+  }
+}

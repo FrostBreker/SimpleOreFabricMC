@@ -1,0 +1,33 @@
+fr/breaker/sofmc/SofmcClient.java
+ fr.breaker.sofmc.SofmcClient
+fr/breaker/sofmc/init/ModBlock.java
+ fr.breaker.sofmc.init.ModBlock
+fr/breaker/sofmc/recipes/ForgeRecipe.java
+ fr.breaker.sofmc.recipes.ForgeRecipe
+fr/breaker/sofmc/screenhandler/ForgeFurnaceScreenHandler.java
+ fr.breaker.sofmc.screenhandler.ForgeFurnaceScreenHandler
+fr/breaker/sofmc/blocks/ForgeFurnace.java
+ fr.breaker.sofmc.blocks.ForgeFurnace
+fr/breaker/sofmc/screenhandler/ForgeFurnaceScreen.java
+ fr.breaker.sofmc.screenhandler.ForgeFurnaceScreen
+fr/breaker/sofmc/blockentity/ForgeFurnaceBlockEntity.java
+ fr.breaker.sofmc.blockentity.ForgeFurnaceBlockEntity
+fr/breaker/sofmc/items/ObsidianSwordItem.java
+ fr.breaker.sofmc.items.ObsidianSwordItem
+fr/breaker/sofmc/items/ObsidianHoeItem.java
+ fr.breaker.sofmc.items.ObsidianHoeItem
+fr/breaker/sofmc/items/ObsidianShoveItem.java
+ fr.breaker.sofmc.items.ObsidianShoveItem
+fr/breaker/sofmc/items/ObsidianAxeItem.java
+ fr.breaker.sofmc.items.ObsidianAxeItem
+fr/breaker/sofmc/items/ObsidianPickaxeItem.java
+ fr.breaker.sofmc.items.ObsidianPickaxeItem
+fr/breaker/sofmc/toolsmaterials/ObsidianToolMaterial.java
+ fr.breaker.sofmc.toolsmaterials.ObsidianToolMaterial
+fr/breaker/sofmc/init/ModItem.java
+ fr.breaker.sofmc.init.ModItem
+fr/breaker/sofmc/armormaterials/ObsidianArmorMaterial.java
+ fr.breaker.sofmc.armormaterials.ObsidianArmorMaterial
+fr/breaker/sofmc/SofmcMod.java
+ fr.breaker.sofmc.SofmcMod
+ fr.breaker.sofmc.SofmcMod$1
