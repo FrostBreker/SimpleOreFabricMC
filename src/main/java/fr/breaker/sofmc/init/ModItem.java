@@ -23,6 +23,7 @@ public class ModItem
     //Divers
     public static final Item OBSIDIAN_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item BASALT_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item POTASSIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     //Obsidian
     public static final Item OBSIDIAN_SWORD = new ObsidianSwordItem(ObsidianToolMaterial.INSTANCE, 1, -2.4f, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
     public static final Item OBSIDIAN_PICKAXE = new ObsidianPickaxeItem(ObsidianToolMaterial.INSTANCE, -2, -2.8f, new Item.Settings().maxCount(1).group(ItemGroup.TOOLS));
@@ -69,6 +70,7 @@ public class ModItem
         //Divers
         Registry.register(Registry.ITEM, new Identifier(SofmcMod.MODID, "obsidian_ingot"), OBSIDIAN_INGOT);
         Registry.register(Registry.ITEM, new Identifier(SofmcMod.MODID, "basalt_ingot"), BASALT_INGOT);
+        Registry.register(Registry.ITEM, new Identifier(SofmcMod.MODID, "potassium_ingot"), POTASSIUM_INGOT);
         //Obsidian
         Registry.register(Registry.ITEM, new Identifier(SofmcMod.MODID, "obsidian_sword"), OBSIDIAN_SWORD);
         Registry.register(Registry.ITEM, new Identifier(SofmcMod.MODID, "obsidian_pickaxe"), OBSIDIAN_PICKAXE);
